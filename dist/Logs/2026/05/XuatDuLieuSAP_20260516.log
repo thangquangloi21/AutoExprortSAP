@@ -1,0 +1,82 @@
+2026-05-16 09:59:01,566 [INFO] Log file: D:\4.DEV\Python\XuatDuLieuSAP\dist\Logs\2026\05\XuatDuLieuSAP_20260516.log
+2026-05-16 09:59:01,566 [INFO] Start XuatDuLieuSAP
+2026-05-16 09:59:01,566 [INFO] Config file: D:\4.DEV\Python\XuatDuLieuSAP\dist\Script\sap_login_config.json
+2026-05-16 09:59:01,566 [INFO] VBS script: D:\4.DEV\Python\XuatDuLieuSAP\dist\Script\MB52.vbs
+2026-05-16 09:59:01,566 [INFO] Excel input: D:\4.DEV\Python\XuatDuLieuSAP\Data\MB52.XLSX
+2026-05-16 09:59:01,566 [INFO] CSV output: D:\4.DEV\Python\XuatDuLieuSAP\dist\Data\MB52.csv
+2026-05-16 09:59:01,566 [INFO] Run SAP export script
+2026-05-16 09:59:33,050 [INFO] cscript MB52.vbs return code: 0
+2026-05-16 09:59:33,050 [INFO] Read Excel file
+2026-05-16 09:59:34,294 [INFO] Excel rows: 17673
+2026-05-16 09:59:34,294 [INFO] Write CSV file
+2026-05-16 09:59:34,357 [INFO] Clean escaped quotes in CSV
+2026-05-16 09:59:34,375 [INFO] Converted: D:\4.DEV\Python\XuatDuLieuSAP\Data\MB52.XLSX -> D:\4.DEV\Python\XuatDuLieuSAP\dist\Data\MB52.csv
+2026-05-16 09:59:34,375 [INFO] Connect SQL and truncate dbo.MB52
+2026-05-16 09:59:34,443 [INFO] Truncated table dbo.MB52
+2026-05-16 09:59:34,443 [INFO] Run BCP import
+2026-05-16 09:59:35,112 [INFO] bcp import return code: 0
+2026-05-16 09:59:35,113 [INFO] bcp import stdout:
+Starting copy...
+1000 rows sent to SQL Server. Total sent: 1000
+1000 rows sent to SQL Server. Total sent: 2000
+1000 rows sent to SQL Server. Total sent: 3000
+1000 rows sent to SQL Server. Total sent: 4000
+1000 rows sent to SQL Server. Total sent: 5000
+1000 rows sent to SQL Server. Total sent: 6000
+1000 rows sent to SQL Server. Total sent: 7000
+1000 rows sent to SQL Server. Total sent: 8000
+1000 rows sent to SQL Server. Total sent: 9000
+1000 rows sent to SQL Server. Total sent: 10000
+1000 rows sent to SQL Server. Total sent: 11000
+1000 rows sent to SQL Server. Total sent: 12000
+1000 rows sent to SQL Server. Total sent: 13000
+1000 rows sent to SQL Server. Total sent: 14000
+1000 rows sent to SQL Server. Total sent: 15000
+1000 rows sent to SQL Server. Total sent: 16000
+1000 rows sent to SQL Server. Total sent: 17000
+
+17672 rows copied.
+Network packet size (bytes): 4096
+Clock Time (ms.) Total     : 125    Average : (141376.00 rows per sec.)
+2026-05-16 09:59:35,113 [INFO] Finished XuatDuLieuSAP successfully
+2026-05-16 09:59:51,904 [INFO] Log file: D:\4.DEV\Python\XuatDuLieuSAP\dist\Logs\2026\05\XuatDuLieuSAP_20260516.log
+2026-05-16 09:59:51,904 [INFO] Start XuatDuLieuSAP
+2026-05-16 09:59:51,904 [INFO] Config file: D:\4.DEV\Python\XuatDuLieuSAP\dist\Script\sap_login_config.json
+2026-05-16 09:59:51,904 [INFO] VBS script: D:\4.DEV\Python\XuatDuLieuSAP\dist\Script\MB52.vbs
+2026-05-16 09:59:51,904 [INFO] Excel input: D:\4.DEV\Python\XuatDuLieuSAP\Data\MB52.XLSX
+2026-05-16 09:59:51,904 [INFO] CSV output: D:\4.DEV\Python\XuatDuLieuSAP\dist\Data\MB52.csv
+2026-05-16 09:59:51,904 [INFO] Run SAP export script
+2026-05-16 10:00:24,111 [INFO] cscript MB52.vbs return code: 0
+2026-05-16 10:00:24,111 [INFO] Read Excel file
+2026-05-16 10:00:25,279 [INFO] Excel rows: 17673
+2026-05-16 10:00:25,281 [INFO] Write CSV file
+2026-05-16 10:00:25,318 [INFO] Clean escaped quotes in CSV
+2026-05-16 10:00:25,351 [INFO] Converted: D:\4.DEV\Python\XuatDuLieuSAP\Data\MB52.XLSX -> D:\4.DEV\Python\XuatDuLieuSAP\dist\Data\MB52.csv
+2026-05-16 10:00:25,351 [INFO] Connect SQL and truncate dbo.MB52
+2026-05-16 10:00:25,397 [INFO] Truncated table dbo.MB52
+2026-05-16 10:00:25,397 [INFO] Run BCP import
+2026-05-16 10:00:26,030 [INFO] bcp import return code: 0
+2026-05-16 10:00:26,030 [INFO] bcp import stdout:
+Starting copy...
+1000 rows sent to SQL Server. Total sent: 1000
+1000 rows sent to SQL Server. Total sent: 2000
+1000 rows sent to SQL Server. Total sent: 3000
+1000 rows sent to SQL Server. Total sent: 4000
+1000 rows sent to SQL Server. Total sent: 5000
+1000 rows sent to SQL Server. Total sent: 6000
+1000 rows sent to SQL Server. Total sent: 7000
+1000 rows sent to SQL Server. Total sent: 8000
+1000 rows sent to SQL Server. Total sent: 9000
+1000 rows sent to SQL Server. Total sent: 10000
+1000 rows sent to SQL Server. Total sent: 11000
+1000 rows sent to SQL Server. Total sent: 12000
+1000 rows sent to SQL Server. Total sent: 13000
+1000 rows sent to SQL Server. Total sent: 14000
+1000 rows sent to SQL Server. Total sent: 15000
+1000 rows sent to SQL Server. Total sent: 16000
+1000 rows sent to SQL Server. Total sent: 17000
+
+17672 rows copied.
+Network packet size (bytes): 4096
+Clock Time (ms.) Total     : 109    Average : (162128.44 rows per sec.)
+2026-05-16 10:00:26,030 [INFO] Finished XuatDuLieuSAP successfully
